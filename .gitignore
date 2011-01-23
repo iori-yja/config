@@ -1,0 +1,6 @@
+*.elc
+*.include.*
+*history*
+*~
+*.tgz
+*.cache
