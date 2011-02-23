@@ -7,7 +7,7 @@ fi
 
 
 CONFDIR=`pwd`
-LINKFILES='.gitconfig .emacs .emacs.d .screenrc .tmux.conf .zshrc .vimperator .vimperatorrc .zshrc .zshrc.include .vimrc'
+LINKFILES='.gitconfig .emacs .emacs.d .screenrc .tmux.conf .zshrc .vimperator .vimperatorrc .zshrc .vimrc'
 
 cd ~/
 if [ "$HOME" = "" ]; then
@@ -19,6 +19,11 @@ for i in $LINKFILES; do
     ln -s $CONFDIR/$i $HOME/$i
 done
 
-echo include specific .zshrc.include!!
-echo e.g. \'ln -s $CONFDIR/.zshrc.include.xxx $HOME/.zshrc.include\'
-
+INCLUDE=$1
+if [ -z $INCLUDE ]; then
+    echo include specific .zshrc.include!!
+    echo e.g. \'ln -s $CONFDIR/.zshrc.include.xxx $HOME/.zshrc.include\'
+else
+    rm $HOME/.zshrc.include
+    ln -s $CONFDIR/.zshrc.include.$INCLUDE $HOME/.zshrc.include
+fi
