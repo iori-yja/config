@@ -1,0 +1,3 @@
+;; -*- mode: emacs-lisp -*-
+;; History entries used for anything adaptive display.
+(setq anything-c-adaptive-history (quote (("Manual Pages" ("tar" ("tar" . 1)) ("Crypt::OpenSSL::Random" ("random" . 1)) ("random" ("random" . 2)) ("rand" ("rand" . 1)) ("ModPerl::CScan" ("scan" . 1)) ("Data::Dumper" ("dump" . 1)) ("Net::OAuth::UserAuthRequest" ("oauth" . 1)) ("Net::OAuth::AccessTokenRequest" ("oauth" . 1)) ("Net::OAuth" ("oauth" . 1) ("net::oau" . 2)) ("Net::Twitter::Role::OAuth" ("oauth" . 1))) (file ("/home/takayuki/work/svn/SVNROOT/study/misc/scheme/google/2010/round1C/A/A.scm" ("google" . 1)) ("/etc/hosts.allow" ("" . 1))))))

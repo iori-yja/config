@@ -72,4 +72,7 @@ function sudo() {
     echo "[m"
 }
 
-
+function cd() {
+    builtin cd $*
+    l
+}

@@ -1,7 +1,9 @@
 (autoload 'ruby-mode "ruby-mode"
   "Mode for editing ruby source files" t)
-(setq auto-mode-alist
-      (append '(("\\.rb$" . ruby-mode)) auto-mode-alist))
+(setq auto-mode-alist (append '(("\\.rb$" . ruby-mode)) auto-mode-alist))
+(setq auto-mode-alist (append '(("Rakefile" . ruby-mode)) auto-mode-alist))
+(setq auto-mode-alist (append '(("rakefile" . ruby-mode)) auto-mode-alist))
+
 (setq interpreter-mode-alist (append '(("ruby" . ruby-mode))
    				     interpreter-mode-alist))
 
@@ -41,5 +43,6 @@
   nil)
 
 (define-key ruby-mode-map "\C-m" 'reindent-then-newline-and-indent)
+(define-key ruby-mode-map "\C-c\C-v" 'compile)
 (provide 'my-ruby-mode)
 

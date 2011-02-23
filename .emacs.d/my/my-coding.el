@@ -4,6 +4,7 @@
 (require 'my-scheme-mode)
 (require 'my-ruby-mode)
 (require 'my-javascript-mode)
+(require 'my-actionscript-mode)
 
 ;; yasnippet
 (add-to-list 'load-path "~/.emacs.d/elisp/yasnippet.el")

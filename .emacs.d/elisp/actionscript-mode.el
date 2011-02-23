@@ -1,0 +1,1 @@
+/home/takayuki/work/git/local/dev/conf/.emacs.d/elisp/actionscript-mode-haas-7.0.el

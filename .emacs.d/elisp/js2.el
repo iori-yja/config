@@ -11177,14 +11177,16 @@ Also moves past comment delimiters when inside comments."
   "Turns on mirror mode, where quotes, brackets etc are mirrored automatically
   on insertion."
   (interactive)
-  (define-key js2-mode-map (read-kbd-macro "{")  'js2-mode-match-curly)
-  (define-key js2-mode-map (read-kbd-macro "}")  'js2-mode-magic-close-paren)
-  (define-key js2-mode-map (read-kbd-macro "\"") 'js2-mode-match-double-quote)
-  (define-key js2-mode-map (read-kbd-macro "'")  'js2-mode-match-single-quote)
-  (define-key js2-mode-map (read-kbd-macro "(")  'js2-mode-match-paren)
-  (define-key js2-mode-map (read-kbd-macro ")")  'js2-mode-magic-close-paren)
-  (define-key js2-mode-map (read-kbd-macro "[")  'js2-mode-match-bracket)
-  (define-key js2-mode-map (read-kbd-macro "]")  'js2-mode-magic-close-paren))
+  (message "'js2-enter-mirror-mode' is disabled")
+  ;; (define-key js2-mode-map (read-kbd-macro "{")  'js2-mode-match-curly)
+  ;; (define-key js2-mode-map (read-kbd-macro "}")  'js2-mode-magic-close-paren)
+  ;; (define-key js2-mode-map (read-kbd-macro "\"") 'js2-mode-match-double-quote)
+  ;; (define-key js2-mode-map (read-kbd-macro "'")  'js2-mode-match-single-quote)
+  ;; (define-key js2-mode-map (read-kbd-macro "(")  'js2-mode-match-paren)
+  ;; (define-key js2-mode-map (read-kbd-macro ")")  'js2-mode-magic-close-paren)
+  ;; (define-key js2-mode-map (read-kbd-macro "[")  'js2-mode-match-bracket)
+  ;; (define-key js2-mode-map (read-kbd-macro "]")  'js2-mode-magic-close-paren)
+  )
 
 (defun js2-leave-mirror-mode()
   "Turns off mirror mode."
