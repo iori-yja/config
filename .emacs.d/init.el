@@ -87,6 +87,7 @@
 	))
 
 
+
 ;;;;;;;;;;;;;;;;;;;;;;
 ;; cedet
 ;;;;;;;;;;;;;;;;;;;;;
@@ -94,6 +95,7 @@
 (global-ede-mode 1)                      ; Enable the Project management system
 (semantic-load-enable-code-helpers)      ; Enable prototype help and smart completion
 (global-srecode-minor-mode 1)            ; Enable template insertion menu-items
+
 
 ;;;;;;;;;;;;;;;;;;;;;;
 ;; w3m
@@ -105,7 +107,6 @@
  ;; (global-set-key "\C-xm" 'browse-url-at-point)
 
 
-
 ;;;;;;;;;;;;;;;;;;;;;;
 ;; mines
 ;;;;;;;;;;;;;;;;;;;;;
@@ -113,6 +114,7 @@
 (require 'my-emacs)
 (require 'my-coding)
 ;;(require 'my-skk)
+
 
 
 
