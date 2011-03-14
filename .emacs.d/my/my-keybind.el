@@ -7,6 +7,8 @@
 (define-key anything-map "\C-h" 'backward-delete-char)
 (global-set-key "\C-c\C-v" 'compile)
 
+
+
 ;;(windmove-default-keybindings)
 (global-set-key "\C-ck" 'windmove-up)
 (global-set-key "\C-cj" 'windmove-down)
@@ -46,7 +48,11 @@
 (global-set-key "\M-n" 'next-line-and-recenter)
 
 
+(defun kill-current-buffer ()
+  (interactive)
+  (kill-buffer (current-buffer)))
 
+(global-set-key "\C-c\C-k" 'kill-current-buffer)
 
 
 ;; auto complete
