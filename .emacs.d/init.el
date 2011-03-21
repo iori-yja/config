@@ -86,6 +86,8 @@
 	 (color-theme-dark-laptop))
 	))
 
+(setq frame-background-mode 'dark)
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;;
@@ -113,6 +115,7 @@
 (require 'my-keybind)
 (require 'my-emacs)
 (require 'my-coding)
+(require 'my-local)
 ;;(require 'my-skk)
 
 
