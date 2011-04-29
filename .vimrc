@@ -7,3 +7,4 @@ set tabstop=4
 set backspace=2
 colorscheme darkblue 
 set t_Co=256
+set paste

@@ -2,15 +2,15 @@
        )
       ((equal system-name "dev50.mojavy.com")
        (require 'my-actionscript-mode))
-      (t
-       (require 'my-c-mode)
-                                        ;(require 'my-php-mode)
-       (require 'my-java-mode)
-       (require 'my-scheme-mode)
-       (require 'my-ruby-mode)
-       (require 'my-javascript-mode)
-       ))
+      )
 
+;; commons
+(require 'my-c-mode)
+                                        ;(require 'my-php-mode)
+(require 'my-java-mode)
+(require 'my-scheme-mode)
+(require 'my-ruby-mode)
+(require 'my-javascript-mode)
 
 
 

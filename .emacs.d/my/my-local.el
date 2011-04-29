@@ -1,1 +1,1 @@
-my-local.el.mac
+my-local.el.debian

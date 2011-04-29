@@ -27,6 +27,9 @@
 
 ;; indent
 (global-set-key "\C-m" 'reindent-then-newline-and-indent)
+(global-set-key "\C-m" 'newline)
+
+
 ;; 'newline-and-indent)
 
 

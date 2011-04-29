@@ -80,7 +80,7 @@
 	 (color-theme-initialize)
 	 (color-theme-deep-blue))
 	((equal system-name "dev50.mojavy.com")
-	 (color-theme-classic))
+	 (color-theme-billw))
 	(t
 	 (color-theme-initialize)
 	 (color-theme-dark-laptop))

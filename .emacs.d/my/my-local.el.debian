@@ -1,0 +1,20 @@
+(add-hook 'haskell-mode-hook 'turn-on-haskell-doc-mode)
+(add-hook 'haskell-mode-hook 'turn-on-haskell-indent)
+(add-hook 'haskell-mode-hook 'font-lock-mode)
+(add-hook 'haskell-mode-hook 'imenu-add-menubar-index)
+
+
+(setq load-path (append load-path '("/usr/share/emacs/site-lisp/riece")))
+(autoload 'riece "riece" "Start Riece" t)
+
+;; (defun sql-mysql2 ()
+;;   (interactive)
+;;   (sql-mysql)
+;;   )
+
+;;(setq sql-server "localhost")
+;;#(defalias 'sql-mysql 'sql-mysql2)
+(defalias 'sql-mysql2 'sql-mysql)
+
+(provide 'my-local)
+
