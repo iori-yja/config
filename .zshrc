@@ -76,3 +76,6 @@ function cd() {
     builtin cd $*
     l
 }
+
+
+[[ $EMACS = t ]] && unsetopt zle
